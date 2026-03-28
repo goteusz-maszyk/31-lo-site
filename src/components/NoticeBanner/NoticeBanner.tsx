@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from '@docusaurus/Link';
 import styles from './NoticeBanner.module.css';
 
 export default function NoticeBanner() {
@@ -6,12 +6,11 @@ export default function NoticeBanner() {
     <div className={styles.noticeBanner}>
       <div className="container">
         <h2 className={styles.noticeText}>
-          <a href="https://www.facebook.com/events/2105927590176384">
-            🎉 Zapraszamy na dzień otwarty 21 marca 2026!!!
-          </a>
+          <Link href="https://www.facebook.com/share/1D5fCGGk5G/">
+            🎉 Zapraszamy na dzień otwarty 25 kwietnia 2026!!!
+          </Link>
         </h2>
       </div>
     </div>
   );
 }
-
